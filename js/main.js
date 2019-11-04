@@ -16,3 +16,4 @@ $(function () {
         var printStr = nowDate + " - " + fullName + ", " + Major + ", " + startYear;
         $("#records").append("<p class='title'>" + printStr+"</p>");
     });
+});
