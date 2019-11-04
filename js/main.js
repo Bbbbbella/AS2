@@ -15,5 +15,6 @@ $(function () {
         var nowDate = myDate.getHours() + ":" + myDate.getMinutes();
         var printStr = nowDate + " - " + fullName + ", " + Major + ", " + startYear;
         $("#records").append("<p class='title'>" + printStr+"</p>");
+        $("#fullName").val(""); $("#Major").val(""); $("#startYear").val("");
     });
 });
