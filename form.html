@@ -1,20 +1,42 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>The JavaScript Pizza Parlor</title>
-     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/main.css" media="all"/>
-     <script type="text/javascript" src="js/main.js"></script>
-  </head>
-  <body>
-	  <h1>Student Record Management</h1>
-    <form name="myform">
-     Full Name <input type="text" id="myFullName" name="fullName"/>
-     Major<input type="text" id="myMajor" name="major"/>
-     Start Year<input type="text" id="MyStartYear" name="startYear"/>
-      <button id="addRec">Add Record</button>
-      
-    </form>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="title"><strong>Student Record Management</strong></div>
+    <div>
+        <table id="tableContext">
+            <tr>
+                <td>Full Name</td>
+                <td>Major</td>
+                <td>Start Year</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" value="" id="fullName" name="fullName"/>
+                </td>
+                <td>
+                    <input type="text" value="" id="Major" name="Major"/>
+                </td>
+                <td>
+                    <input type="text" value="" id="startYear" name="startYear"/>
+                </td>
+                <td>
+                    <button id="addRec">Add Record</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="title"><strong>Entered Records:</strong></div>
     <div id="records">
-      </div>
-  </body>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
